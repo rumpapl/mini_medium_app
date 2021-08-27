@@ -1,9 +1,9 @@
-
+import Auth from "./components/auth/Auth";
 
 function App() {
   return (
     <>
-    <h1>mini_medium_app</h1>
+    <Auth />
     </>
   );
 }
