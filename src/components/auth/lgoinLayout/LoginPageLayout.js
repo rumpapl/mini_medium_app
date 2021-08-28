@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-// import './LoginPageLayoutStyle.css';
+import './LoginPageLayoutStyle.css';
 
 const LoginPageLayout = (props) => {
     return (
@@ -8,7 +8,7 @@ const LoginPageLayout = (props) => {
             {props.head}
             <Container>
                 <Row>
-                    <Col sm={8}>
+                    <Col sm={8} className='social-login'>
                         {props.left}
                     </Col>
                     <Col sm={4}>

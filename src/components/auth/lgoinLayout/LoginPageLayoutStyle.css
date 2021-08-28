@@ -1,10 +1,4 @@
-
-.login-page{
-    display: flex;
-    width: auto;
+.social-login{
+    padding: 20% 0;
 }
 
-
-.col-6 {
-   width: 50%;
-}
