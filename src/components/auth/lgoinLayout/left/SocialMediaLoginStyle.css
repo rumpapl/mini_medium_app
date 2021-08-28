@@ -1,3 +1,13 @@
 .fb-login {
     margin-bottom: 20px;
 }
+
+.fb-login-btn{
+    background-color:  #3b5998;
+    border-radius: 8px;
+    border: 0;
+    padding: 10px 40px;
+    color: white;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}

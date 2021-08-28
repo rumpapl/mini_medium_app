@@ -1,5 +1,6 @@
 import React from 'react';
 import FacebookLogin from 'react-facebook-login';
+import './SocialMediaLoginStyle.css';
 
 
 
@@ -16,6 +17,8 @@ const FBLogin = () => {
                 autoLoad={true}
                 fields="name,email,picture"
                 // onClick={componentClicked}
+                cssClass="fb-login-btn"
+                textButton='LOGIN WITH FACEBOOK'
                 callback={responseFacebook}
             />
         </>
