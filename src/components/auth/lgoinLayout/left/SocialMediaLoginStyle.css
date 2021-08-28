@@ -2,12 +2,26 @@
     margin-bottom: 20px;
 }
 
-.fb-login-btn{
-    background-color:  #3b5998;
+.social-media-login-btn{
     border-radius: 8px;
     border: 0;
     padding: 10px 40px;
-    color: white;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb-btn{
+    background-color:  #3b5998;
+    color: white;
+}
+
+.social-media-icon{
+    background: white;
+    color: #3b5998;
+    padding: 2px 8px;
+    border-radius: 8px;
+    margin: 0 10px;
 }

@@ -1,9 +1,7 @@
 import React from 'react';
 import FacebookLogin from 'react-facebook-login';
 import './SocialMediaLoginStyle.css';
-import { FaFacebookF } from "react-icons/fa";
-
-
+import Icon from './Icon';
 
 
 const FBLogin = () => {
@@ -19,9 +17,9 @@ const FBLogin = () => {
                 autoLoad={true}
                 fields="name,email,picture"
                 // onClick={componentClicked}
-                cssClass="fb-login-btn"
+                cssClass="social-media-login-btn fb-btn"
                 textButton='  LOGIN WITH FACEBOOK'
-                icon={<FaFacebookF/>}
+                icon={<Icon/>}
                 callback={responseFacebook}
             />
         </>
