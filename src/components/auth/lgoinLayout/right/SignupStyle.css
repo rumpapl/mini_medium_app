@@ -1,0 +1,23 @@
+
+.signup-box{
+    padding: 10%;
+
+}
+
+.signup-form{
+    padding: 20px 0;
+}
+
+.input-field{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid rgb(127, 129, 129);
+    margin: 20px 0;
+    width: 100%;
+}
+
+.title-text{
+    font-size: xx-large;
+    /* font-weight: bold; */
+}

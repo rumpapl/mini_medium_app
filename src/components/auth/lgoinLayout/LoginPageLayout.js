@@ -9,10 +9,10 @@ const LoginPageLayout = (props) => {
                 {props.head}
                 <Container>
                     <Row>
-                        <Col sm={8} className='social-login'>
+                        <Col sm={5} className='social-login'>
                             {props.left}
                         </Col>
-                        <Col sm={4}>
+                        <Col sm={7}>
                             {props.right}
                         </Col>
                     </Row>
