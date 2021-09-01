@@ -17,6 +17,11 @@
     width: 100%;
 }
 
+.input-field:hover{
+    padding: 10px 0px;
+    background: rgb(242, 245, 245);
+}
+
 .title-text{
     font-size: xx-large;
     /* font-weight: bold; */
