@@ -1,0 +1,31 @@
+.default-button{
+    border: 0;
+    border-radius: 8px;
+    background-color: #0a67a1;
+    padding:  1vh 2vw;
+}
+
+.default-button:hover{
+    opacity: .5;
+}
+
+.login-btn{
+    background-color: #0782ce;
+    padding: 1vh 4vw;
+    color: white;
+    /* font-size: 2rem; */
+    /* font-weight: bold; */
+}
+
+@media screen and (min-width: 601px) {
+    .login-btn{
+      font-size: 22px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .login-btn{
+      font-size:  18px;
+      padding: 1vh 15%;
+    }
+  }

@@ -5,7 +5,7 @@
 }
 
 .signup-form{
-    padding: 20px 0;
+    padding: 5% 0;
 }
 
 .input-field{
@@ -13,16 +13,36 @@
     outline: 0;
     background: transparent;
     border-bottom: 1px solid rgb(127, 129, 129);
-    margin: 20px 0;
+    margin: 4% 0;
     width: 100%;
 }
 
 .input-field:hover{
-    padding: 10px 0px;
+    padding: 1vh 0vw;
     background: rgb(242, 245, 245);
 }
 
-.title-text{
-    font-size: xx-large;
-    /* font-weight: bold; */
-}
+
+@media screen and (min-width: 601px) {
+    .title-text {
+      font-size: 2.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .title-text {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+    .input-field {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .input-field{
+      font-size:  16px;
+    }
+  }

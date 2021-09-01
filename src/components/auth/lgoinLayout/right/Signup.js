@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import './SignupStyle.css';
+import Button from '../../../CommonComponents/button/Button';
 
 const Signup = () => {
     const [firstName, setFirstName] = useState(null);
@@ -54,6 +55,10 @@ const Signup = () => {
                 rePasswordInputRef.current.focus();
             }
         }
+    }
+
+    function onClick(){
+        console.log('inside onclick');
     }
 
 
@@ -110,6 +115,7 @@ const Signup = () => {
                         placeholder='Confirm Password'
                         className='input-field' />
 
+                    <Button className='login-btn' onClick={onClick}>Login</Button>
                 </div>
             </div>
         </>
