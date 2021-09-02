@@ -1,9 +1,11 @@
-import Auth from "./components/auth/Auth";
+
+import Routing from "./route/Routing";
 
 function App() {
   return (
     <>
-    <Auth />
+    {/* <Auth /> */}
+    <Routing/>
     </>
   );
 }
