@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import './SignupStyle.css';
 import Button from '../../../CommonComponents/button/Button';
+import { useHistory } from 'react-router-dom';
 
 const Signup = () => {
     const [firstName, setFirstName] = useState(null);
@@ -15,6 +16,7 @@ const Signup = () => {
     const passwordInputRef = React.useRef(null);
     const rePasswordInputRef = React.useRef(null);
 
+    const history = useHistory();
 
     function handleChange(e, elementName) {
         e.preventDefault();
@@ -59,6 +61,9 @@ const Signup = () => {
 
     function onClick(){
         console.log('inside onclick');
+        history.push("/bookmark");
+
+
     }
 
 
